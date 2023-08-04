@@ -14,7 +14,7 @@ public class PriceComparator implements Comparator<Item> {
     public int compare(Item o1, Item o2) {
         Double price1 = o1.getPrice();
         Double price2 = o2.getPrice();
-        
+
         return price1.compareTo(price2);
     }
 }
